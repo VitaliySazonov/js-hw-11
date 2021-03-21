@@ -14,7 +14,6 @@ $(document).ready(() => {
       this.id = setInterval(() => this.tm(this.promotion), 1000);
       this.datepicker();
       this.isClick();
-      console.log(this.promotion);
     }
     
     datepicker() {
