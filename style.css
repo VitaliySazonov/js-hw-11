@@ -1,0 +1,84 @@
+html, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: #f5f5f5;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  margin: 0;
+}
+
+button[data-action] {
+  padding: 10px 20px;
+  margin: 5px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.glyphicon-ok {
+  width: 60px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellowgreen;
+  background: none;
+  border: none;
+}
+.glyphicon-ok:hover{
+  cursor: pointer;
+}
+.glyphicon-ok[disabled] {
+  color: #555;
+}
+
+.time-is-over {
+  font-size: 5rem;
+  color: #808080;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  color: #808080;
+}
+
+.field p {
+  width: 10vw;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  background: #fff;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.field span {
+  display: block;
+  font-size: 30px;
+}
